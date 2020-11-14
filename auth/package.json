@@ -13,10 +13,13 @@
   },
   "devDependencies": {
     "@types/node": "^14.14.7",
+    "@types/pg": "^7.14.6",
     "rimraf": "^3.0.2",
     "typescript": "^4.0.5"
   },
   "dependencies": {
-    "env-cmd": "^10.1.0"
+    "@bigoncloud/logger": "^1.1.4",
+    "env-cmd": "^10.1.0",
+    "pg": "^8.5.1"
   }
 }
